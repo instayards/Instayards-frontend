@@ -1,0 +1,89 @@
+.society-form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.society-form-section {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.society-form-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #334155;
+}
+
+.society-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.admin-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.admin-field:last-child {
+  margin-bottom: 0;
+}
+
+.admin-field label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.admin-field input,
+.admin-field textarea,
+.admin-field select {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #f1f5f9;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.admin-field input:focus,
+.admin-field textarea:focus,
+.admin-field select:focus {
+  border-color: #3b82f6;
+}
+
+.admin-field input::placeholder,
+.admin-field textarea::placeholder {
+  color: #475569;
+}
+
+.admin-field select option {
+  background: #1e293b;
+}
+
+.field-hint {
+  color: #475569;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.society-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 4px;
+}

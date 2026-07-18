@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /agent/dashboard
+Disallow: /agent/listings
+Disallow: /agent/team
+Disallow: /agent/settings
+Disallow: /agent/login
+Disallow: /agent/signup
+
+Sitemap: https://instayards.com/sitemap.xml

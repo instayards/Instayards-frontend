@@ -1,0 +1,32 @@
+[
+  {
+    "type": "orange",
+    "icon": "growth",
+    "title": "Value-First Price Intelligence",
+    "points": [
+      "Live market trend evaluation",
+      "Fair pricing benchmarks",
+      "Negotiation-ready insights"
+    ]
+  },
+  {
+    "type": "purple",
+    "icon": "security",
+    "title": "Legally Secure Transactions",
+    "points": [
+      "End-to-end legal scrutiny",
+      "Seller & document authentication",
+      "Clear ownership assurance"
+    ]
+  },
+  {
+    "type": "green",
+    "icon": "process",
+    "title": "Seamless Experience Management",
+    "points": [
+      "Scheduled & guided visits",
+      "Complete paperwork handling",
+      "Effortless final closure"
+    ]
+  }
+]

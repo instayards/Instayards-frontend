@@ -1,0 +1,123 @@
+.admin-login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+}
+
+.admin-login-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.admin-login-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.admin-login-brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f1f5f9;
+  letter-spacing: -0.5px;
+}
+
+.admin-login-badge {
+  background: #3b82f6;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.admin-login-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin: 0 0 6px;
+}
+
+.admin-login-sub {
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 0 0 28px;
+}
+
+.admin-login-error {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #f87171;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.admin-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.admin-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.admin-field label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.admin-field input {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 11px 14px;
+  color: #f1f5f9;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.admin-field input:focus {
+  border-color: #3b82f6;
+}
+
+.admin-field input::placeholder {
+  color: #475569;
+}
+
+.admin-login-btn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.2s;
+}
+
+.admin-login-btn:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.admin-login-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

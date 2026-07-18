@@ -1,0 +1,49 @@
+{
+  "title": "What Our Customers Say",
+  
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Puneet Bhatiya",
+      "city": "Gurgaon",
+      "image": "https://instayards-assets-652698422443-ap-south-1-an.s3.ap-south-1.amazonaws.com/Others/testimonial/puneetbhatiya.jpg",
+      "rating": 5,
+      "feedback": "We had a very good experience throughout the process of purchasing our flat in Antalya Hills. The entire dealing was smooth, professional, and trustworthy. We especially appreciated the polite and supportive nature of the team. The office atmosphere was welcoming, and the overall service and communication were excellent. Highly recommended for anyone looking for a genuine and hassle-free property buying experience.",
+      "date": "10th April 2026",
+      "propertyType": ""
+    },
+    {
+      "id": 2,
+      "name": "Mukesh",
+      "role": "",
+      "city": "Gurgaon",
+      "image": "https://instayards-assets-652698422443-ap-south-1-an.s3.ap-south-1.amazonaws.com/Others/testimonial/mukesh.jpeg",
+      "rating": 5,
+      "feedback": "As a first-time home buyer, I had many doubts and was confused about the overall process. The Instayards team guided me at every step and made the entire journey smooth and stress-free. With their support, I was able to book my dream home at Bestech Grandspa, Sector 81, at a great deal. Their professionalism, transparency, and friendly approach truly made the experience memorable",
+      "date": "7 April 2026",
+      "propertyType": ""
+    },
+     {
+      "id": 3,
+      "name": "Indu and Utsav",
+      "role": "",
+      "city": "Gurgaon",
+      "image": "https://instayards-assets-652698422443-ap-south-1-an.s3.ap-south-1.amazonaws.com/Others/testimonial/indu.jpeg",
+      "rating": 5,
+      "feedback": "We are extremely thankful to the Instayards team for helping us find our dream home. A special thanks to Puneet and Shivam for understanding our requirements so well and showing us the most relevant properties according to our needs. Their guidance, support, and honest dealing throughout the process made our home-buying journey smooth and memorable. We truly appreciate the effort and dedication of the entire team and highly recommend Instayards to anyone looking for their perfect home.",
+      "date": "7 April 2026",
+      "propertyType": ""
+    },
+    {
+      "id": 4,
+      "name": "Mohit Kabra",
+      "city": "Gurgaon",
+      "image": "https://instayards-assets-652698422443-ap-south-1-an.s3.ap-south-1.amazonaws.com/Others/testimonial/mohitKabra.jpeg",
+      "rating": 5,
+      "feedback": "We purchased a property at Bestech Park View Altura, Sector 79, and I’m really happy that we connected with the right team. Puneet and the entire Instayards team provided complete support throughout the process and made everything smooth and hassle-free. They truly are a one-stop solution for all property-related needs. Their professionalism, transparency, and customer support were impressive, and I look forward to staying connected with them for future property dealings as well.",
+      "date": "10th April 2026",
+      "propertyType": ""
+    }
+    
+  ]
+}

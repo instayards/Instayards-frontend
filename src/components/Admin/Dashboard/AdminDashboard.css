@@ -1,0 +1,120 @@
+.admin-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.admin-stat-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.15s;
+  display: block;
+}
+
+.admin-stat-card:hover {
+  transform: translateY(-2px);
+  border-color: #475569;
+}
+
+.admin-stat-blue:hover   { border-color: #3b82f6; }
+.admin-stat-green:hover  { border-color: #22c55e; }
+.admin-stat-purple:hover { border-color: #a855f7; }
+.admin-stat-orange:hover { border-color: #f97316; }
+.admin-stat-pink:hover   { border-color: #ec4899; }
+
+.admin-stat-icon {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.admin-stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-bottom: 4px;
+  line-height: 1;
+}
+
+.admin-stat-label {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.admin-dash-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.admin-section-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin: 0 0 16px;
+}
+
+.admin-recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.admin-recent-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+a.admin-recent-item:hover {
+  background: #0f172a;
+}
+
+.admin-recent-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.admin-recent-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e2e8f0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.admin-recent-sub {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.admin-recent-date {
+  font-size: 11px;
+  color: #475569;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .admin-stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .admin-dash-grid {
+    grid-template-columns: 1fr;
+  }
+}
