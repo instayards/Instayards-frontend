@@ -46,7 +46,7 @@ export const CarouselBg = styled(Box)(({ bgimage }) => ({
     content: '""',
     position: 'absolute',
     inset: 0,
-    // background: 'linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.45), rgba(0,0,0,0.25))',
+    background: 'linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.55))',
   },
 }));
 
@@ -66,6 +66,7 @@ export const HeroTitle = styled(Typography)({
   marginBottom: 20,
   lineHeight: 1.2,
   color: 'white',
+  textShadow: '0 2px 12px rgba(0,0,0,0.55), 0 1px 3px rgba(0,0,0,0.7)',
 });
 
 export const HeroSubtitle = styled(Typography)({
@@ -74,7 +75,8 @@ export const HeroSubtitle = styled(Typography)({
   maxWidth: 700,
   marginInline: 'auto',
   lineHeight: 1.6,
-  color: 'rgba(255,255,255,0.9)',
+  color: 'rgba(255,255,255,0.95)',
+  textShadow: '0 1px 8px rgba(0,0,0,0.55), 0 1px 2px rgba(0,0,0,0.7)',
   '@media (max-width: 480px)': { marginBottom: 25 },
 });
 
