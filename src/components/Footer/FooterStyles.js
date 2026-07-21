@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 // ─── Tokens ──────────────────────────────────────────────────────────────────
 const t = {
-  bg:          '#080d1a',
+  // bg:          '#080d1a',
   bgCard:      'rgba(255,255,255,0.03)',
   accent:      '#3b82f6',
   accentHover: '#2563eb',
