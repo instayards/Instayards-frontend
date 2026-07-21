@@ -23,8 +23,13 @@ jobs:
 
       - name: Build React
         env:
-         CI: false
+          CI: false
         run: npm run build
+
+      - name: Check SSH Secret
+        run: |
+          echo "Length:"
+          echo "${{ secrets.SSH_KEY }}" | wc -c
 
       - name: Copy build to EC2
         uses: appleboy/scp-action@v0.1.7
